@@ -38,6 +38,23 @@ public class CustomerResource {
         }
         return customers;
     }
+    
+        @GET
+    @Path("/search")
+    public Customer getCustomerByPhone(@QueryParam("phone") String phone) {
+        String sql = "SELECT id, name, contact FROM ayesha_pahanaedu WHERE contact = ?";
+        try (Connection con = DBUtil.getConnection();
+             PreparedStatement ps = con.prepareStatement(sql)) {
+            ps.setString(1, phone);
+            ResultSet rs = ps.executeQuery();
+            if (rs.next()) {
+                return new Customer(rs.getInt("id"), rs.getString("name"), rs.getString("contact"));
+            }
+        } catch (SQLException e) {
+            throw new WebApplicationException("DB error", 500);
+        }
+        return null; // Not found
+    }
 
     @POST
     public Customer addCustomer(Customer customer) {

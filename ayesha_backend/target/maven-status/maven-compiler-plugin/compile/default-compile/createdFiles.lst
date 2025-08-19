@@ -1,8 +1,14 @@
-com\mycompany\ayesha_backend\model\Item.class
-com\mycompany\ayesha_backend\resources\AuthResource.class
-com\mycompany\ayesha_backend\resources\JakartaEE10Resource.class
 com\mycompany\ayesha_backend\resources\CustomerResource.class
 com\mycompany\ayesha_backend\db\DBUtil.class
 com\mycompany\ayesha_backend\JakartaRestConfiguration.class
+com\mycompany\ayesha_backend\resources\OrderHistoryResource.class
+com\mycompany\ayesha_backend\model\Order.class
 com\mycompany\ayesha_backend\model\Customer.class
 com\mycompany\ayesha_backend\resources\ItemResource.class
+com\mycompany\ayesha_backend\model\Item.class
+com\mycompany\ayesha_backend\resources\AuthResource.class
+com\mycompany\ayesha_backend\model\OrderHistoryItem.class
+com\mycompany\ayesha_backend\resources\JakartaEE10Resource.class
+com\mycompany\ayesha_backend\resources\OrderResource.class
+com\mycompany\ayesha_backend\model\OrderHistory.class
+com\mycompany\ayesha_backend\model\OrderItem.class
