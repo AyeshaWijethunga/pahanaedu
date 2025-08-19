@@ -1,0 +1,58 @@
+body { font-family: Arial, sans-serif; background: #f3f3f3; }
+.login-container { width: 300px; margin: 100px auto; background: #fff; padding: 30px; border-radius: 10px; box-shadow: 0 0 10px #bbb; }
+.card-container { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; margin-top: 50px; }
+.card { background: #fff; padding: 30px 50px; border-radius: 10px; box-shadow: 0 0 10px #bbb; cursor: pointer; transition: 0.2s; }
+.card:hover { background: #eee; }
+
+/*manage customer*/
+
+body { font-family: Arial, sans-serif; background: #f3f3f3; }
+.form-section, .search-section { margin: 20px 0; }
+.list-section { margin-top: 30px; }
+#customerTable { width: 100%; border-collapse: collapse; }
+#customerTable th, #customerTable td { border: 1px solid #bbb; padding: 10px; text-align: left; }
+#customerTable th { background: #eee; }
+button { margin-right: 5px; }
+.popup {
+    position: fixed; top: 0; left: 0; width: 100vw; height: 100vh;
+    background: rgba(0,0,0,0.5); display: flex; align-items: center; justify-content: center;
+}
+.popup-content {
+    background: #fff; padding: 30px; border-radius: 10px; min-width: 300px;
+}
+
+
+/*add item*/
+
+body { font-family: Arial, sans-serif; background: #f3f3f3; }
+.form-section, .search-section { margin: 20px 0; }
+.list-section { margin-top: 30px; }
+#itemTable, #customerTable { width: 100%; border-collapse: collapse; }
+#itemTable th, #itemTable td, #customerTable th, #customerTable td { border: 1px solid #bbb; padding: 10px; text-align: left; }
+#itemTable th, #customerTable th { background: #eee; }
+button { margin-right: 5px; }
+.popup {
+    position: fixed; top: 0; left: 0; width: 100vw; height: 100vh;
+    background: rgba(0,0,0,0.5); display: flex; align-items: center; justify-content: center;
+}
+.popup-content {
+    background: #fff; padding: 30px; border-radius: 10px; min-width: 300px;
+}
+
+
+/*cart page*/
+
+body { font-family: Arial, sans-serif; background: #f3f3f3; }
+.form-section, .search-section { margin: 20px 0; }
+.list-section { margin-top: 30px; }
+#itemTable, #customerTable, table { width: 100%; border-collapse: collapse; }
+#itemTable th, #itemTable td, #customerTable th, #customerTable td, table th, table td { border: 1px solid #bbb; padding: 10px; text-align: left; }
+#itemTable th, #customerTable th, table th { background: #eee; }
+button { margin-right: 5px; }
+.popup {
+    position: fixed; top: 0; left: 0; width: 100vw; height: 100vh;
+    background: rgba(0,0,0,0.5); display: flex; align-items: center; justify-content: center;
+}
+.popup-content {
+    background: #fff; padding: 30px; border-radius: 10px; min-width: 300px;
+}
